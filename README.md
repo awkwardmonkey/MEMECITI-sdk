@@ -1,22 +1,15 @@
 
-# Vircadia Web SDK
+# Memeland SDK
 
-The **Vircadia Web SDK** (codename Ananke) is a JavaScript/TypeScript SDK for developing web-based applications for virtual worlds powered by the open source metaverse platform [Vircadia](https://vircadia.com/). Vircadia domain servers provide the worlds (a.k.a. "domains") to visit, and the Vircadia
-metaverse server provides global services that connect the users and domains.
-See the user docs to [Understand the Architecture](https://docs.vircadia.com/explore/get-started/architecture.html).
+The **Memeland SDK** is a JavaScript/TypeScript SDK for developing web-based applications for virtual worlds. Memeland domain servers provide the worlds (a.k.a. "domains") to visit, and the Memeland Memeverse Server provides global services that connect the users and domains.
 
 This SDK provides interfaces to:
 - Connect to domains.
-- Use metaverse services.
+- Use Memeverse services.
 
 The SDK is written in TypeScript.
 - [Project Configuration](CONFIGURATION.md)
 - [Coding Standard](CODING_STANDARD.md)
-
-The SDK is published at NPM: https://www.npmjs.com/package/@vircadia/web-sdk
-
-To learn more about using Vircadia's metaverse ecosystem, see the [Developer Documentation](https://docs.vircadia.dev).
-
 
 ## Prerequisites
 
@@ -37,13 +30,13 @@ to.
 ### Get the source
 
 ```
-git clone https://github.com/vircadia/vircadia-web-sdk.git
+git clone https://github.com/awkwardmonkey/memeland-sdk.git
 ```
 
-If you're working on Vircadia protocol code (that in the `\src\domain` directory) it is recommended that you clone the SDK as
-a subdirectory of the main Vircadia repo's source so that both sets of code are accessed when you open the main Vircadia repo's
-source in your IDE. For example, if your clone of the main Vircadia repo's source is in `C:\Workspaces\vircadia` then clone
-the SDK repo's source into `C:\Workspaces\vircadia-web-sdk`. Thus with the main Vircadia's repo loaded in your IDE, when
+If you're working on Memeland protocol code (that in the `\src\domain` directory) it is recommended that you clone the SDK as
+a subdirectory of the main Memeland repo's source so that both sets of code are accessed when you open the main Memeland repo's
+source in your IDE. For example, if your clone of the main Memeland repo's source is in `C:\Workspaces\memeland` then clone
+the SDK repo's source into `C:\Workspaces\memeland-sdk`. Thus with the main Memeland's repo loaded in your IDE, when
 you search for code then both C++ and TypeScript results are returned, helping you compare the two codebases and keep them in
 sync.
 
@@ -105,7 +98,7 @@ npm run lint-path <path>
 
 Unit tests can be run without any external dependencies but integration tests require a domain server to be running on
 `localhost` or other location specified in `./tests/test.config.json`. The location and other values of the config JSON can be
-overridden with environment variables, using the same property names, but prefixed with "VIRCADIA_".
+overridden with environment variables, using the same property names, but prefixed with "MEMELAND_".
 
 All tests:
 ```
