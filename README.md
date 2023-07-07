@@ -1,11 +1,10 @@
+# MEMECITI SDK
 
-# Memeland SDK
-
-The **Memeland SDK** is a JavaScript/TypeScript SDK for developing web-based applications for virtual worlds. Memeland domain servers provide the worlds (a.k.a. "domains") to visit, and the Memeland Memeverse Server provides global services that connect the users and domains.
+The **MEMECITI SDK** is a JavaScript/TypeScript SDK for developing web-based applications for virtual worlds. Memeland domain servers provide the worlds (a.k.a. "domains") to visit, and the MEMECITI MEMEverse Server provides global services that connect the users and domains.
 
 This SDK provides interfaces to:
 - Connect to domains.
-- Use Memeverse services.
+- Use MEMEverse services.
 
 The SDK is written in TypeScript.
 - [Project Configuration](CONFIGURATION.md)
