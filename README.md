@@ -1,10 +1,10 @@
 # MEMECITI SDK
 
-The **MEMECITI SDK** is a JavaScript/TypeScript SDK for developing web-based applications for virtual worlds. Memeland domain servers provide the worlds (a.k.a. "domains") to visit, and the MEMECITI MEMEverse Server provides global services that connect the users and domains.
+The **MEMECITI SDK** is a JavaScript/TypeScript SDK for developing web-based applications for virtual worlds. MEMECITI domain servers provide the worlds (a.k.a. "domains") to visit, and the MEMECITI Memeverse Server provides global services that connect the users and domains.
 
 This SDK provides interfaces to:
 - Connect to domains.
-- Use MEMEverse services.
+- Use Memeverse services.
 
 The SDK is written in TypeScript.
 - [Project Configuration](CONFIGURATION.md)
@@ -29,13 +29,13 @@ to.
 ### Get the source
 
 ```
-git clone https://github.com/awkwardmonkey/memeland-sdk.git
+git clone https://github.com/awkwardmonkey/memeciti-sdk.git
 ```
 
 If you're working on Memeland protocol code (that in the `\src\domain` directory) it is recommended that you clone the SDK as
 a subdirectory of the main Memeland repo's source so that both sets of code are accessed when you open the main Memeland repo's
-source in your IDE. For example, if your clone of the main Memeland repo's source is in `C:\Workspaces\memeland` then clone
-the SDK repo's source into `C:\Workspaces\memeland-sdk`. Thus with the main Memeland's repo loaded in your IDE, when
+source in your IDE. For example, if your clone of the main Memeland repo's source is in `C:\Workspaces\memeciti` then clone
+the SDK repo's source into `C:\Workspaces\memeciti-sdk`. Thus with the main Memeland's repo loaded in your IDE, when
 you search for code then both C++ and TypeScript results are returned, helping you compare the two codebases and keep them in
 sync.
 
